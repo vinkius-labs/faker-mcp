@@ -1,4 +1,4 @@
-import { createPresenter, ui } from '@vurb/core';
+import { createPresenter, ui } from '@mcpfusion/core';
 import { FakerListModel } from '../models/index.js';
 
 interface FakerData {

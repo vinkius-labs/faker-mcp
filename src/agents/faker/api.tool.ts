@@ -1,4 +1,4 @@
-import { f } from '../../vurb.js';
+import { f } from '../../mcpfusion.js';
 import { FakerPresenter } from '../../views/index.js';
 import { 
     getAddresses, getBooks, getCompanies, getCreditCards, 

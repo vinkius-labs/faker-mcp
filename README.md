@@ -2,7 +2,8 @@
 
 A specialized Model Context Protocol (MCP) server designed to generate highly realistic, context-aware synthetic data for AI agents. This tool allows autonomous systems to populate databases, mock APIs, and create test scenarios without exposing real Personally Identifiable Information (PII).
 
-[![Deploy on Vinkius Cloud](https://img.shields.io/badge/Deploy%20on-Vinkius%20Cloud-blue?style=for-the-badge)](https://vinkius.com/mcp/faker)
+[![Deploy on Vinkius Edge](https://img.shields.io/badge/Deploy%20on-Vinkius%20Edge-blue?style=for-the-badge)](https://vinkius.com/mcp/faker)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vinkius/faker-mcp?style=for-the-badge&logo=docker&color=2496ed)](https://hub.docker.com/r/vinkius/faker-mcp)
 [![MCP Fusion Compatible](https://img.shields.io/badge/Powered%20by-MCP%20Fusion-success?style=for-the-badge)](https://www.npmjs.com/package/@mcpfusion/core)
 
 ## Overcoming AI Data Generation Limits
@@ -22,19 +23,24 @@ The **Faker MCP** bridges this gap by delegating synthetic data generation to a 
   * **Function**: Accepts parameters for data type (e.g., 'user', 'address', 'commerce') and quantity. Returns deeply nested, structurally perfect synthetic JSON objects.
   * **Use Case**: End-to-end testing agents, database seeding, and privacy-compliant UI mocking.
 
-## Enterprise Deployment
+## Enterprise Deployment & Hosting
 
-You can immediately attach this server to your AI workflows via **Vinkius Cloud**, our globally distributed MCP hosting platform.
+You can immediately attach this server to your AI workflows via **Vinkius Edge**, our globally distributed MCP hosting platform.
 
-👉 **[Access the Faker MCP on Vinkius Cloud](https://vinkius.com/mcp/faker)**
+👉 **[Access the Faker MCP on Vinkius Edge](https://vinkius.com/mcp/faker)**
 
-Our infrastructure guarantees highly available, DDoS-protected endpoints running in secure V8 isolates.
+### 1. Free Edge Hosting (Recommended)
+You do not need to manage your own servers! **Vinkius provides FREE, highly available edge hosting for MCP servers.** You can deploy this exact server in seconds to our secure V8 isolate cloud:
+```bash
+npx mcpfusion deploy
+```
+*This command bundles your code and instantly deploys it to the Vinkius Edge, providing you with a live, DDoS-protected URL ready to be consumed by your AI agents.*
 
-## Local Development
-
-Constructed with the [MCP Fusion](https://www.npmjs.com/package/@mcpfusion/core) framework, ensuring type-safe agent interactions.
+### 2. Local Development
+Constructed with the [MCP Fusion](https://www.npmjs.com/package/@mcpfusion/core) framework, ensuring type-safe agent interactions. If you want to run this locally:
 
 ```bash
 npm install
+npm run build
 npm run dev
 ```

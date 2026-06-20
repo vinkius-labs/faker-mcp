@@ -1,4 +1,4 @@
-import { defineModel } from '@vurb/core';
+import { defineModel } from '@mcpfusion/core';
 
 export const FakerListModel = defineModel('FakerList', m => { 
     m.casts({ 

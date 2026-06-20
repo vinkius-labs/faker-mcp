@@ -1,3 +1,3 @@
-import { defineCredentials } from '@vurb/core';
+import { defineCredentials } from '@mcpfusion/core';
 
 export const credentials = defineCredentials({});

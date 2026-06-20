@@ -1,7 +1,7 @@
 {
-  "name": "@mcp-originals/faker-mcp",
+  "name": "@mcp-listing/faker-mcp",
   "version": "1.0.0",
-  "description": "Faker MCP Server",
+  "description": "Synthetic data generation Model Context Protocol (MCP) server. Generate realistic mock data for testing and development.",
   "main": "dist/server.js",
   "type": "module",
   "scripts": {
@@ -20,5 +20,21 @@
     "tsx": "^4.7.0",
     "typescript": "^5.3.0",
     "vitest": "^1.5.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "faker",
+    "mock-data",
+    "synthetic-data",
+    "testing",
+    "developer-tools",
+    "vinkius"
+  ],
+  "homepage": "https://vinkius.com/mcp/faker",
+  "author": "Vinkius",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinkius-labs/faker-mcp.git"
   }
 }
