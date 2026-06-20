@@ -2,7 +2,7 @@
 
 A specialized Model Context Protocol (MCP) server designed to generate highly realistic, context-aware synthetic data for AI agents. This tool allows autonomous systems to populate databases, mock APIs, and create test scenarios without exposing real Personally Identifiable Information (PII).
 
-[![Deploy on Vinkius Cloud](https://img.shields.io/badge/Deploy%20on-Vinkius%20Cloud-blue?style=for-the-badge)](https://vinkius.com/mcp/faker-mcp)
+[![Deploy on Vinkius Cloud](https://img.shields.io/badge/Deploy%20on-Vinkius%20Cloud-blue?style=for-the-badge)](https://vinkius.com/mcp/faker)
 [![MCP Fusion Compatible](https://img.shields.io/badge/Powered%20by-MCP%20Fusion-success?style=for-the-badge)](https://www.npmjs.com/package/@mcpfusion/core)
 
 ## Overcoming AI Data Generation Limits
@@ -26,7 +26,7 @@ The **Faker MCP** bridges this gap by delegating synthetic data generation to a 
 
 You can immediately attach this server to your AI workflows via **Vinkius Cloud**, our globally distributed MCP hosting platform.
 
-👉 **[Access the Faker MCP on Vinkius Cloud](https://vinkius.com/mcp/faker-mcp)**
+👉 **[Access the Faker MCP on Vinkius Cloud](https://vinkius.com/mcp/faker)**
 
 Our infrastructure guarantees highly available, DDoS-protected endpoints running in secure V8 isolates.
 
